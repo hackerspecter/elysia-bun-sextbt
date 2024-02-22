@@ -19,7 +19,7 @@ export function Welcomenavbar(){
     return(
         <nav class="flex items-center justify-between m-2 ">
             <div class="lg:size-14">
-                <img src="/pkgimg/logo.png" alt="sextbt" />
+                <img src="/img/logo.png" alt="sextbt" />
             </div>
             <menu class="flex space-x-4  ">
                 {setorie.map(s => <li>{s.setor}</li> )}
